@@ -18,20 +18,10 @@ body {
   position: absolute;
   z-index: -1;
 }
-/* @media only screen and (max-width: 1120px) {
-.background{
-    background: linear-gradient( #81c8fc,#eaf5fb);
-        width: 2000px;
-        height: 800px;
-        position: absolute;
-        z-index: -1;
-    
-    }
 
-} */
 .background .bg-line1 {
   position: absolute;
-  left:50%;
+  left: 50%;
   border-bottom: 425px solid #81c3ec;
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
@@ -52,8 +42,8 @@ body {
   left: 50%;
 }
 
- .background .bg-line1-after {
-   content: "";
+.background .bg-line1-after {
+  content: "";
   opacity: 0.2;
   position: relative;
   border-bottom: 355px solid #81c3ec;
@@ -66,144 +56,23 @@ body {
 }
 .ray-container-1 {
   top: -56px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-} 
-.ray-container-2 {
-  position: absolute;
-  right: 25%;
-  transform: translateX(30%) rotate(26deg);
-  top: -56px;
-}
-.ray-container-3{
-  position: absolute;
-  left: 25%;
-  transform: translateX(-30%) rotate(-26deg);
-  top: -56px;
-}
-/*
-.background .bg-line1::before {
-  content: "";
-  opacity: 0.2;
-  position: absolute;
-  left: -268%;
-  border-bottom: 330px solid #81c3ec;
-  border-left: 35px solid transparent;
-  border-right: 25px solid transparent;
-  height: 0;
-  width: 54px;
-  transform: rotate(4deg);
-} */
-/* .ray-container-1 {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
 .ray-container-2 {
   position: absolute;
-  left: 0%;
-  transform: rotate(-23deg);
-  top: -21px;
+  right: 25%;
+  transform: translateX(30%) rotate(26deg);
+  top: -56px;
 }
 .ray-container-3 {
   position: absolute;
-  left: 60%;
-  transform: translateX(26%) rotate(22deg);
-  top: -21px;
-} */
+  left: 25%;
+  transform: translateX(-30%) rotate(-26deg);
+  top: -56px;
+}
 
-
-.background .bg2 {
-  left: 48%;
-  transform: rotate(-2deg);
-  width: 51px;
-  opacity: 1;
-  background: linear-gradient(white, #c7e5fd);
-}
-.background .bg2::after {
-  content: "";
-  opacity: 1;
-  background: linear-gradient(white, #c7e5fd);
-}
-.background .bg2::before {
-  content: "";
-  left: 41px;
-  background: linear-gradient(white, #c7e5fd);
-  opacity: 1;
-  transform: rotateZ(5deg);
-  left: 32px;
-}
-.background .bg3 {
-  left: 60%;
-  opacity: 1;
-  transform: rotate(21deg);
-}
-.background .bg3::after {
-  content: "";
-  opacity: 1;
-}
-.background .bg3::before {
-  content: "";
-  opacity: 1;
-}
-.background .bg4 {
-  opacity: 1;
-  transform: rotateZ(7deg);
-  left: 623px;
-}
-.background .bg4::after {
-  content: "";
-  opacity: 1;
-}
-.background .bg4::before {
-  content: "";
-  opacity: 1;
-}
-.background .bg5 {
-  height: 381px;
-  left: 458px;
-  opacity: 1;
-  transform: rotate(-20deg);
-  top: -38px;
-}
-.background .bg5::after {
-  content: "";
-  opacity: 1;
-}
-.background .bg5::before {
-  content: "";
-  opacity: 1;
-}
-.background .bg6 {
-  left: 674px;
-  opacity: 1;
-  transform: rotateZ(16deg);
-  height: 371px;
-  top: -35px;
-}
-.background .bg6::after {
-  content: "";
-  opacity: 1;
-}
-.background .bg6::before {
-  content: "";
-  opacity: 1;
-}
-.background .bg7 {
-  left: 85%;
-  opacity: 1;
-  transform: rotateZ(31deg);
-  height: 399px;
-  top: -47px;
-}
-.background .bg8 {
-  left: 90%;
-  opacity: 0.4;
-  transform: rotate(31deg);
-  height: 400px;
-  top: -68px;
-}
 .background .balloon1 {
   position: absolute;
   height: 45px;
@@ -261,7 +130,7 @@ body {
 
 .background .balloon3 {
   left: 70%;
-  widows: 58px;
+  width: 58px;
   top: 68px;
   transform: rotate(1deg);
   background: linear-gradient(#e2d3d6 11%, #d16179 85%);
@@ -276,14 +145,14 @@ body {
 .house-container .house {
   height: 60%;
   width: 60%;
-  background: #dc9e67;
+  background: repeating-linear-gradient(to right, #dc9e67 48%, white 50%);
 }
 
 .house-container .house::before {
   content: "";
   height: 56%;
   width: 23%;
-  background: #dc9e67;
+  background: repeating-linear-gradient(to right, #dc9e67 48%, white 50%);
   position: absolute;
   transform: rotate(22deg);
   left: -12px;
@@ -294,7 +163,7 @@ body {
   content: "";
   height: 66px;
   width: 60px;
-  background: red;
+  background: #f41460;
   position: absolute;
   top: 52px;
   left: -23px;
@@ -305,7 +174,7 @@ body {
   height: 0;
   border-left: 32px solid transparent;
   border-right: 32px solid transparent;
-  border-bottom: 60px solid #fff;
+  border-bottom: 60px solid #d0a1b0;
   position: absolute;
   top: 0px;
   left: 29px;
@@ -316,17 +185,17 @@ body {
   content: "";
   height: 65px;
   width: 56px;
-  background: yellow;
+  background: #dae9e8;
   position: absolute;
   top: 53px;
-  left: -25px;
+  left: -26px;
   transform: rotate(1deg);
 }
 .house-container .house-right::after {
   content: "";
   height: 20px;
   width: 20px;
-  background: black;
+  background: repeating-linear-gradient(to right, red 47%, white 52%);
   position: absolute;
   top: 70px;
   left: -7px;
@@ -357,7 +226,7 @@ body {
   background: linear-gradient(#bfea7f, white);
   position: absolute;
   left: 0;
-  top:  -69px;
+  top: -69px;
   width: 50%;
   border-radius: 1px 236px 11px 3px;
 }
@@ -415,7 +284,7 @@ body {
   bottom: -62px;
   right: 76px;
 }
-.small-grass2{
+.small-grass2 {
   right: 30%;
 }
 
@@ -533,9 +402,6 @@ body {
   left: 201px;
   top: 34px;
 }
-/* .three1 .leave1, .leave2,.leave3{
-    background: linear-gradient(red, orange);
-} */
 .three .root {
   border: solid 5px white;
   border-color: transparent transparent transparent transparent;
@@ -606,7 +472,7 @@ body {
   50% {
     transform: translateX(50px) scale(1);
   }
-  
+
   100% {
     transform: translateX(100px) scale(0.5);
   }
@@ -682,16 +548,118 @@ body {
     transform: scale(0.6);
   }
 }
+.badal1 {
+  height: 50px;
+  width: 50px;
+  background: white;
+  position: absolute;
+  top: 13px;
+  left: 12px;
+  border-radius: 30px 20px 10px;
+}
+.badal2 {
+  height: 50px;
+  width: 50px;
+  background: white;
+  position: absolute;
+  left: 50px;
+  border-radius: 50%;
+}
+.badal3 {
+  height: 50px;
+  width: 50px;
+  background: white;
+  position: absolute;
+  left: 87px;
+  top: 16px;
+  border-radius: 38px 19px 30px 0px;
+}
+.badal4 {
+  height: 50px;
+  width: 50px;
+  background: white;
+  position: absolute;
+  border-radius: 50%;
+  top: 39px;
+  left: 52px;
+}
+.cloud1 {
+  animation-delay: 0s;
+  opacity: 0.5;
+  height: 150px;
+  width: 200px;
+  background: transparent;
+  position: absolute;
+  top: 50px;
+  left: -150px;
+  display: flex;
+  animation-name: moving;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.cloud2 {
+  left: -150px;
+  top: 100px;
+  opacity: 0.5;
+  animation-delay: 5s;
+  height: 150px;
+  width: 200px;
+  background: transparent;
+  position: absolute;
+  display: flex;
+  animation-name: moving;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.cloud3 {
+  left: -150px;
+  top: 70px;
+  opacity: 0.5;
+  animation-delay: 7s;
+  height: 150px;
+  width: 200px;
+  background: transparent;
+  position: absolute;
+  display: flex;
+  animation-name: moving;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes moving {
+  from {
+    left: 0%;
+    opacity: 0.5;
+  }
+  to {
+    left: 100%;
+    opacity: 0.5;
+  }
+}
 
-
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
+  .grass {
+    top: -15px;
+    border-radius: 168%/100px 89px 0px 34px;
+  }
+  .grass::before {
+    border-radius: 7px 236px 11px 3px;
+    top: -43px;
+  }
+  .cloud1,
+  .cloud2,
+  .cloud3 {
+    transform: scale(0.5);
+  }
   .container {
     width: 100%;
   }
   .background {
     height: 248px;
     overflow: hidden;
-    animation: rayEffect cubic-bezier(.38, .39, .58, .56) 10s infinite;
+    animation: rayEffect cubic-bezier(0.38, 0.39, 0.58, 0.56) 10s infinite;
   }
   @keyframes rayEffect {
     0% {
@@ -724,7 +692,7 @@ body {
   }
   .background .bg-line1 {
     position: absolute;
-    left:50%;
+    left: 50%;
     border-bottom: 251px solid #81c3ec;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
@@ -732,7 +700,7 @@ body {
     width: 65px;
     transform: translateX(-50%) rotate(180deg);
   }
-  
+
   .background .bg-line1-before {
     content: "";
     opacity: 0.2;
@@ -767,7 +735,7 @@ body {
   .five {
     left: 64%;
   }
-  .butterfly-container{
+  .butterfly-container {
     left: 0;
     top: 0;
     left: 5%;
@@ -777,6 +745,4 @@ body {
     position: absolute;
     top: 30px;
     left: 30px;
-   
   }
-}
